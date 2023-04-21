@@ -1,0 +1,14 @@
+Welcome to the Kill-Chain Optimization website!
+===============================================
+
+The Kill-Chain Optimization project is part of the George Mason University (GMU) Master's Capstone Project for the Systems Engineering/
+Operations Research graduate programs (SYST/OR 699) for the Spring 2023 semester. This project was coordinated with the Office of the
+Secretary of Defense's Cost Analysis Program (OSD/CAPE). The project is named after an effort by our sponsor's team to solve Kill-Chains
+using a Mixed Integer Program, but the amount of time that it took to solve a problem was unreasonably long; so our team was asked to 
+use a Constraint Programming approach to see if you would run faster. Below is a diagram of how a Kill-Chain works. A Kill-Chain is 
+composed of a platform that goes through a series of steps before it decides to prosecute a target. This can be modeled as a flexible 
+job shop problem - a target can be targeted, tracked, and killed by a series of different platforms and the goal of our Constraint 
+Programming solution is to find the minimize makespan while being able to find an optimal solution more quickly than the Mixed Integer
+Programming model that is currently in place.
+
+
