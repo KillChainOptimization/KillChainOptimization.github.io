@@ -8,7 +8,7 @@ using a Mixed Integer Program, but the amount of time that it took to solve a pr
 use a Constraint Programming approach to see if you would run faster. Below is a diagram of how a Kill-Chain works. A Kill-Chain is 
 composed of a platform that goes through a series of steps before it decides to prosecute a target. This can be modeled as a flexible 
 job shop problem - a target can be targeted, tracked, and killed by a series of different platforms and the goal of our Constraint 
-Programming solution is to find the minimize makespan while being able to find an optimal solution more quickly than the Mixed Integer
-Programming model that is currently in place.
+Programming solution is to find the minimize makespan (time to kill targets) while being able to find an optimal solution more quickly
+than the Mixed Integer Programming model that is currently in place.
 
 
